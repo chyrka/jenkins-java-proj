@@ -16,7 +16,8 @@ Set<String> plugins_to_install = [
     "Ansible plugin",
     "XML Job to Job DSL Plugin",
     "Groovy",
-    "locale"
+    "locale",
+	"Google Cloud Storage"
 ]
 
 Boolean hasConfigBeenUpdated = false
