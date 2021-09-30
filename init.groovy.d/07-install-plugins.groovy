@@ -8,16 +8,15 @@ import hudson.model.UpdateSite
 import hudson.PluginWrapper
 
 Set<String> plugins_to_install = [
-    "Credentials",
-    "GitHub",
-    "Nexus Artifact Uploader",
-    "Nexus Platform",
-    "Nexus Platform",
-    "Ansible plugin",
-    "XML Job to Job DSL Plugin",
-    "Groovy",
-    "locale",
-	"Google Cloud Storage"
+		"nexus-artifact-uploader"
+		"nexus-jenkins-plugin"
+		"Credentials",
+		"GitHub",
+		"Ansible",
+		"locale",
+		"xml-job-to-job-dsl",
+		"Groovy",
+		"google-storage-plugin"
 ]
 
 Boolean hasConfigBeenUpdated = false

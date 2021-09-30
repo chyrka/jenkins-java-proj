@@ -7,8 +7,15 @@ import hudson.model.*
 import jenkins.model.*
 import hudson.security.*
 final List<String> REQUIRED_PLUGINS = [
-        "workflow-aggregator",
-        "ws-cleanup",
+		"nexus-artifact-uploader"
+		"nexus-jenkins-plugin"
+		"Credentials",
+		"GitHub",
+		"Ansible",
+		"locale",
+		"xml-job-to-job-dsl",
+		"Groovy",
+		"google-storage-plugin"
 ]
 if (Jenkins.instance.pluginManager.plugins.collect {
   it.shortName
