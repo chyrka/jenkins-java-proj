@@ -16,7 +16,8 @@ Set<String> plugins_to_install = [
 		"locale",
 		"xml-job-to-job-dsl",
 		"Groovy",
-		"google-storage-plugin"
+		"google-storage-plugin",
+		"job-dsl-plugin"
 ]
 
 Boolean hasConfigBeenUpdated = false
