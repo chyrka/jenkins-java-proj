@@ -17,7 +17,6 @@ Set<String> plugins_to_install = [
 		"xml-job-to-job-dsl",
 		"Groovy",
 		"google-storage-plugin",
-		"job-dsl-plugin",
 		"job-dsl"
 ]
 
