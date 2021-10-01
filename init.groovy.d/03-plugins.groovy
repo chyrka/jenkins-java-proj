@@ -7,8 +7,8 @@ import hudson.model.*
 import jenkins.model.*
 import hudson.security.*
 final List<String> REQUIRED_PLUGINS = [
-		"nexus-artifact-uploader"
-		"nexus-jenkins-plugin"
+		"nexus-artifact-uploader",
+		"nexus-jenkins-plugin",
 		"Credentials",
 		"GitHub",
 		"Ansible",
