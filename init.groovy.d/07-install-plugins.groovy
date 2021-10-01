@@ -8,8 +8,8 @@ import hudson.model.UpdateSite
 import hudson.PluginWrapper
 
 Set<String> plugins_to_install = [
-		"nexus-artifact-uploader"
-		"nexus-jenkins-plugin"
+		"nexus-artifact-uploader",
+		"nexus-jenkins-plugin",
 		"Credentials",
 		"GitHub",
 		"Ansible",
